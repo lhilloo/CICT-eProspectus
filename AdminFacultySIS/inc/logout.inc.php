@@ -1,0 +1,8 @@
+<?php
+
+session_start();
+unset($_SESSION['userRole']);
+unset($_SESSION['loggedin']);
+
+header("location: ../index.php");
+exit();

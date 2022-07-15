@@ -1,0 +1,22 @@
+/* Styling for the tables used in admin */
+
+.res-table {
+    width: 400px;
+    border: 1px solid #4879FF!important;
+}
+
+.table-borderless th {
+    text-align: left;
+}
+.table-borderless tr {
+    border-top: solid 1px #000;
+    border-bottom: solid 1px #000;
+}
+
+.card-bg {
+    background-color: #eee;
+}
+
+.table-body td{
+    text-align: center;
+}

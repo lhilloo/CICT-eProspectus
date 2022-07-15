@@ -1,0 +1,134 @@
+.num-rows, .num-label{
+	text-align: center;
+}
+
+.round-viewBtn {
+	width: 100%;
+	background-color: #4879FF;
+	border: none;
+	border-radius: 2em;
+	box-shadow: 0 8px 8px -4px lightblue;
+	-webkit-box-shadow: 0 8px 8px -4px lightblue;
+	-moz-box-shadow: 0 8px 8px -4px lightblue;
+	padding: 10px;
+	color: #FFF;
+}
+
+.round-viewBtn:hover {
+	background-color: #2e5eab;
+	border-color: #2e5eab;
+}
+
+.admin-viewBtn {
+	width: 100%;
+	background-color: #4879ff;
+	border: none;
+	box-shadow: 0 8px 30px -4px rgba(72,121,255,0.45);
+	-webkit-box-shadow: 0 8px 30px -4px rgba(72,121,255,0.45);
+	-moz-box-shadow: 0 8px 30px -4px rgba(72,121,255,0.45);
+	padding: 10px;
+	color: #fff;
+}
+
+.admin-viewBtn:hover {
+	transition: 0.2s;
+	background: #2e5eab;
+	border-color: #2e5eab;
+	color: #fff;
+}
+
+.margin-top {
+	margin-top: 20px;
+}
+.sub-head {
+    border-bottom-style: solid;
+    border-width: 1px;
+    display: flex;
+    justify-content: center;
+}
+
+.sub-head p {
+	font-weight: 100;
+	margin-right: 1em;
+} 
+
+.sub-head a {
+	margin-left: 0.5em;
+}
+
+.card {
+	margin: 2rem;
+	max-width: 200px;
+	border: none;
+}
+
+.card img {
+	width: 100%;
+	margin: 20px;
+}
+
+th, tr, td{
+	padding: 10px;
+}
+
+.acad-year-form {
+	height: 80vh;
+	width: 100%;
+	display: flex;
+}
+
+.form-group {
+	margin: 10px;
+}
+
+.dataTables_wrapper {
+	margin-bottom: 150px;
+}
+
+.paginate_button {
+	margin: 5px;
+	content: none;
+}
+
+.pagination a {
+	border: solid 1px #1c1c1c;
+	padding: 5px 10px;
+	border-radius: 5px;
+	color: #1c1c1c;
+}
+
+.pagination a:hover {
+	background-color: #4879ff;
+	color: white;
+}
+
+.active a {
+	background-color: #4879ff;
+	color: white;
+}
+
+.column {
+	width: 50%;
+}
+
+/*Admin Tooltip*/
+
+
+.tooltiptext {
+  visibility: hidden;
+  width: auto;
+  background-color: black;
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+a:hover .tooltiptext {
+  visibility: visible;
+}
